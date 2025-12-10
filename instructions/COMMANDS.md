@@ -63,3 +63,13 @@ npx claude-flow@alpha swarm "Regarding your design documented in file revised-ar
 
 - Regarding your design documented in file revised-architectural-design.md, what's driving the decision for Azure Container Apps instead of using an consumption App Service or other serverless technology choice?
 - Regarding your design documented in file revised-architectural-design.md, what are the advantages and disadvantages of choosing Python over GoLang?
+
+> Minimum Viable Product Design
+
+```
+npx claude-flow@alpha swarm "I would like a design that produces a minimum viable product first to analyze logs for a small number of low-volume applications before the requirements documented in file requirements/Requirements.md are realized. I need to minimize development effort in the minimum viable product to prove the idea. I do need automated acceptance tests for the minimum viable product." --claude
+```
+
+- I would like a design that produces a minimum viable product first to analyze logs for a small number of low-volume applications before the requirements documented in file requirements/Requirements.md are realized. 
+- I need to minimize development effort in the minimum viable product to prove the idea.
+- I do need automated acceptance tests for the minimum viable product.
