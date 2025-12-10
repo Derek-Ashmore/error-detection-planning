@@ -54,3 +54,12 @@ npx claude-flow@alpha swarm "Requirements have been updated to answer your quest
 - Place the proposal in folder plans.
 - Please show me your thinking step by step and document any assumptions you make.
 - Please let me know if you need additional information.
+
+> Plan Questions
+
+```
+npx claude-flow@alpha swarm "Regarding your design documented in file revised-architectural-design.md, what's driving the decision for Azure Container Apps instead of using an consumption App Service or other serverless technology choice? Regarding your design documented in file revised-architectural-design.md, what are the advantages and disadvantages of choosing Python over GoLang?" --claude
+```
+
+- Regarding your design documented in file revised-architectural-design.md, what's driving the decision for Azure Container Apps instead of using an consumption App Service or other serverless technology choice?
+- Regarding your design documented in file revised-architectural-design.md, what are the advantages and disadvantages of choosing Python over GoLang?
