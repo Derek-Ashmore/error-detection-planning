@@ -67,9 +67,10 @@ npx claude-flow@alpha swarm "Regarding your design documented in file revised-ar
 > Minimum Viable Product Design
 
 ```
-npx claude-flow@alpha swarm "I would like a design that produces a minimum viable product first to analyze logs for a small number of low-volume applications before the requirements documented in file requirements/Requirements.md are realized. I need to minimize development effort in the minimum viable product to prove the idea. I do need automated acceptance tests for the minimum viable product." --claude
+npx claude-flow@alpha swarm "I would like a design that produces a minimum viable product first to analyze logs for a small number of low-volume applications before the requirements documented in file requirements/Requirements.md are realized. I need to minimize development effort in the minimum viable product to prove the idea. I do need automated acceptance tests for the minimum viable product. Document this revision in file plans/minimum-viable-product-design.md." --claude
 ```
 
 - I would like a design that produces a minimum viable product first to analyze logs for a small number of low-volume applications before the requirements documented in file requirements/Requirements.md are realized. 
 - I need to minimize development effort in the minimum viable product to prove the idea.
 - I do need automated acceptance tests for the minimum viable product.
+- Document this revision in file plans/minimum-viable-product-design.md.
