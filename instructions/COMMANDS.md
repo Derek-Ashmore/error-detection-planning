@@ -74,3 +74,11 @@ npx claude-flow@alpha swarm "I would like a design that produces a minimum viabl
 - I need to minimize development effort in the minimum viable product to prove the idea.
 - I do need automated acceptance tests for the minimum viable product.
 - Document this revision in file plans/minimum-viable-product-design.md.
+
+> Slight MVP Alterations
+
+```
+npx claude-flow@alpha swarm "For the minimum viable product design documented in plans/minimum-viable-product-design.md and plans/revised-architectural-design.md, Make the configuration file yaml instead of JSON." --claude
+```
+
+For the minimum viable product design documented in plans/minimum-viable-product-design.md, Make the configuration file yaml instead of JSON.
