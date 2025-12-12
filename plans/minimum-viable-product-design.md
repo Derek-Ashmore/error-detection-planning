@@ -91,25 +91,22 @@ Prove the core concept: automatically detect failures in Azure logs and create G
 
 ## Configuration Schema
 
-```json
-{
-  "azure": {
-    "tenantId": "...",
-    "clientId": "...",
-    "clientSecret": "...",
-    "workspaceId": "...",
-    "tableName": "AppExceptions"
-  },
-  "detection": {
-    "errorPattern": "\"severity\":\"Error\"",
-    "pollIntervalMinutes": 5
-  },
-  "github": {
-    "token": "ghp_...",
-    "owner": "myorg",
-    "repo": "myapp"
-  }
-}
+```yaml
+azure:
+  tenantId: "..."
+  clientId: "..."
+  clientSecret: "..."
+  workspaceId: "..."
+  tableName: AppExceptions
+
+detection:
+  errorPattern: '"severity":"Error"'
+  pollIntervalMinutes: 5
+
+github:
+  token: ghp_...
+  owner: myorg
+  repo: myapp
 ```
 
 ## MVP Workflow
@@ -292,8 +289,8 @@ error-detection-mvp/
 │       ├── azure-api-mock.ts
 │       └── github-api-mock.ts
 ├── config/
-│   ├── config.schema.json
-│   └── config.example.json
+│   ├── config.schema.yaml
+│   └── config.example.yaml
 ├── Dockerfile
 ├── docker-compose.test.yml      # For acceptance tests
 ├── package.json
